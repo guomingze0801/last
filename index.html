@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		*{margin: 0;
+	 	 padding: 0;}
+		#class1{width: 1920px;height: 130px;background-color: rgb(255,255,255);display: inline-block;float: left;}
+		.one{margin-left: 890px;float: left;}
+		.two{margin-left: 40px;float: left;}
+		.three{margin-left: 30px;float: left;}
+		.four{margin-left: 45px;float: left;}
+		.five{margin-left: 10px;float: left;}
+		.six{margin-left: 5px;float: left;}
+		.seven{margin-left: 10px;float: left;}
+		.eight{margin-left: 10px;float: left;}
+		.nine{margin-left: 10px;float: left;}
+		.ten{margin-top:55px ;margin-left: 360px;float: left;}
+		.eleven{width: 200px;margin-left:180px;margin-top:70px ;float: left; }
+		.twelve{margin-left:550px;margin-top:80px ;float: left; }
+
+		#class1>.two>a{text-decoration: none;color:rgb(135,133,134);font-weight:bold; }
+		#class1>.three>a{text-decoration: none;color: rgb(135,133,134);font-weight:bold;}
+		#class2{width: 1920px;height: 60px;border-bottom: 5px solid rgb(58,167,71);display: inline-block;float: left;}
+		.a{margin-left: 360px;float: left;margin-top: 30px;}
+		.b{margin-left: 5px;margin-top: 32px;float: left;}
+		ul{float: left;width:1200px;}
+		li{	list-style-type:none;display: inline-block;width: 70px;float: left;text-align: center;}
+		#class2>ul>li>a:hover{color:rgb(58,167,71); }
+		.c{margin-top: 30px;margin-left: 40px;float: left;}
+		.d{margin-top: 30px;margin-left: 50px;float: left;}
+		a{text-decoration: none;color:black; }
+		#class2 li:hover{border-bottom: 5px solid  rgb(58,167,71);padding-bottom: 5px;}
+		#clsss3{float:left;}
+		#class4{float: left;}
+		.aaa{margin-left: 360px;width: 130px;height: 60px;font-size: 20px;float: left;}
+		.bbb{font-size: 18px;color: rgb(169,168,168);}
+		.ccc{font-size: 18px;color: rgb(169,168,168);margin-left: 1425px;float: left;margin-top: 15px;}
+		.ddd{width: 1200px;height: 45px;border:1px solid rgb(169,168,168);float: left;margin-left: 360px;}
+		.eee{width: 1200px;height: 45px;border:1px solid rgb(169,168,168);float: left;margin-left: 360px;}
+		.fff{width: 1200px;height: 45px;border:1px solid rgb(169,168,168);float: left;margin-left: 360px;}
+		.aaaa{width: 100px;height: 45px;background-color: rgb(229,229,229);float: left;text-align: center;line-height: 40px;}
+		.bbbb{width: 100px;height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 25px;}
+		.bbdd{width: 100px;height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 25px;}
+		.bbbd{width: 100px;height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 25px;}
+		.cccc{width: 100px;height: 45px;background-color: rgb(229,229,229);float: left;text-align: center;line-height: 40px;}
+		.dddd{width: 100px;height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 25px;}
+		.ddee{width: 100px;height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 25px;}
+		.eeee{width: 100px;height: 45px;background-color: rgb(229,229,229);float: left;text-align: center;line-height: 40px;}
+		.ffff{width: 100px;height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 25px;}
+		.gggg{height: 45px;float: left;text-align: center;line-height: 40px;margin-left: 185px;}
+		#class4>.ddd>.bbbb>a{color: rgb(115,115,115);}
+		#class4>.ddd>.bbdd>a{color: rgb(113,187,121);}
+		#class4>.ddd>.bbbd>a{color: rgb(115,115,115);}
+		#class4>.ddd>.bbbb>a:active{color: rgb(113,187,121);}
+		#class4>.eee>.dddd>a{color: rgb(113,187,121);}
+		#class4>.eee>.ddee>a{color: rgb(115,115,115);}
+		#class4>.eee>.dddd>a:active{color: rgb(113,187,121);}
+		#class4>.fff>.ffff>a{color: rgb(115,115,115);}
+		#class4>.fff>.ffff>a:active{color: rgb(113,187,121);}
+		#class4>.fff>.gggg>a{color: rgb(115,115,115);}
+		#class4>.fff>.gggg>a:hover{color: rgb(113,187,121);}
+		#class5{position: fixed;top: 105px;right: 0px;}
+		.img1{background-color: rgb(1,8,8);width: 75px;height: 75px;border-bottom: 1px solid rgb(89,94,93);text-align: center;padding-top: 45px;}
+		#class6{width: 1920px;height: 820px;float: left;}
+		.img2{background-color: rgb(1,8,8);width: 75px;height: 75px;border-bottom: 1px solid rgb(89,94,93);text-align: center;padding-top: 45px;}
+		#class6{width: 1920px;height: 820px;float: left;}
+		.img3{background-color: rgb(1,8,8);width: 75px;height: 75px;border-bottom: 1px solid rgb(89,94,93);text-align: center;padding-top: 45px;}
+		#class6{width: 1920px;height: 820px;float: left;}
+		.img4{background-color: rgb(1,8,8);width: 75px;height: 75px;border-bottom: 1px solid rgb(89,94,93);text-align: center;padding-top: 45px;}
+		#class6{width: 1920px;height: 820px;float: left;}
+		.img5{background-color: rgb(1,8,8);width: 75px;height: 75px;border-bottom: 1px solid rgb(89,94,93);text-align: center;padding-top: 45px;}
+		#class6{width: 1920px;height: 820px;float: left;}
+		#tupian1{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 60px;margin-left: 370px;background-image: url(images/img1.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian2{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 60px;margin-left: 28px;background-image: url(images/img2.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian3{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 60px;margin-left: 28px;background-image: url(images/img3.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian4{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 60px;margin-left: 28px;background-image: url(images/img4.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian5{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 30px;margin-left: 370px;background-image: url(images/img5.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian6{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 30px;margin-left: 28px;background-image: url(images/img6.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian7{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 30px;margin-left: 28px;background-image: url(images/img7.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		#tupian8{width: 270px;height: 290px;float: left;border:1px solid rgb(136,136,136);margin-top: 30px;margin-left: 28px;background-image: url(images/img8.png);background-repeat: no-repeat;background-position: 50% 50%;}
+		.touming1{display: none;left: 0;top: 0;right:0;height:290px;background-color: rgba(71,71,68,0.9);color: rgb(236,236,236);text-align: center;line-height: 40px;font-size: 25px;}
+		.touming2{width: 270px;height: 50px;background-color: rgba(71,71,68,0.9);margin-top: 240px;text-align: center;line-height: 25px;color: rgb(236,236,236);}
+		#tupian1:hover>.touming1{display: block;}
+		#class7{width: 1920px;height: 100px;background-color: rgba(245,245,245);float: left;display: inline-block;}
+		.zizhi{width: 300px;height: 60px;border-right:1px solid rgb(225,225,225);float: left;margin-left: 360px;margin-top: 20px;background-image: url(images/f1.png);background-repeat: no-repeat;background-position: 10% 50%;}
+		.zhifu{width: 300px;height: 60px;border-right:1px solid rgb(225,225,225);float: left;margin-top: 20px;background-image: url(images/f2.png);background-repeat: no-repeat;background-position: 10% 50%;}
+		.zzrz{font-size: 20px;margin-left: 105px;}
+		.fws{font-size: 15px;margin-left: 105px;}
+		.baoxian{width: 300px;height: 60px;border-right:1px solid rgb(225,225,225);float: left;margin-top: 20px;background-image: url(images/f3.png);background-repeat: no-repeat;background-position: 10% 50%;}
+		.shouhou{width: 300px;height: 60px;border-right:1px solid rgb(225,225,225);float: left;margin-top: 20px;background-image: url(images/f4.png);background-repeat: no-repeat;background-position: 10% 50%;}
+		#class8{width: 1920px;height: 100px;background-color: rgba(50,50,50);float: left;display: inline-block;}
+		.iii{display: inline-block;color: rgb(245,245,245);font-size: 18px;margin-top: 25px;margin-left: 285px;}
+		.jjj{display: inline-block;color: rgb(245,245,245);font-size: 18px;margin-top: 25px;}
+		#class8>.iii>a{color: rgb(245,245,245);margin-left: 325px;font-size: 15px;}
+		#class8>.jjj>a{color: rgb(245,245,245);font-size: 15px;}
+		.nnn{color: rgb(245,245,245);font-size: 15px;margin-left: 800px;margin-top: 12px;
+	</style>
+</head>
+<body>
+<form>
+
+<div id="class1">
+	<div class="one">
+		<p style="color: rgb(146,145,145);font-size: 12px;">嘿,欢迎来买猜商城!</p>
+	</div>
+	<div class="two">
+		<a href="#">请登录</a>
+	</div>
+	<div class="three">
+		<a href="#">免费注册</a>
+	</div>	
+	<div class="four">
+		<p style="color: rgb(146,145,145);font-size: 15px;">我的订单</p>
+	</div>
+	<div class="five">
+		<img src="images/dian.png">
+	</div>
+	<div class="six">
+		<p style="color: rgb(146,145,145);font-size: 15px;">我的买猜</p>
+	</div>
+	<div class="seven">
+		<img src="images/dian.png">
+	</div>
+	<div class="seven">
+		<p style="color: rgb(146,145,145);font-size: 15px;">帮助中心</p>
+	</div>
+	<div class="eight">
+		<img src="images/wb.png">
+	</div>
+	<div class="nine">
+		<img src="images/wx.png">
+	</div>
+	<div class="ten">
+		<img src="images/logo.png">
+	</div>
+	<div class="eleven"><input type="text" name="sousuo" placeholder="请输入搜索内容" style="width: 600px;height: 45px;color:rgb(228,228,228);border:1px solid rgb(57,57,66);text-align: center;background-image: url(images/search.png);background-repeat: no-repeat;background-position: 99% 50%;"></div>
+	<div class="twelve">
+		<img src="images/cart.png">
+	</div>
+</div>
+<div id="class2">
+	<div class="a">
+		<p style="color: rgb(5,5,5);font-weight:bold;">全部商品分类</p>
+	</div>
+		<div class="b">
+		<img src="images/dian.png">
+	</div>
+	<ul>
+		<li class="c"><a href="#">首页</a>
+		</li>
+		<li class="d"><a href="#">名酒</a>
+		</li>
+		<li class="d"><a href="#">茗茶</a>
+		</li>
+		<li class="d"><a href="#">玉石</a>
+		</li>
+		<li class="d"><a href="#">休闲食品</a>
+		</li>
+		<li class="d"><a href="#">洗护用品</a>
+		</li>
+		<li class="d"><a href="#">土特产</a>
+		</li>
+		<li class="d"><a href="#">积分商城</a>
+		</li>
+		<li class="d"><a href="#">抽奖游戏</a>
+		</li>
+</ul>
+</div>
+<div id="class3">
+	<img src="images/banner.png">
+</div>
+<div id="class4">
+	<div class="aaa">
+		首页
+		<span class="bbb">&nbsp>&nbsp玉石</span>
+	</div>
+	<div class="ccc">共200件相关商品</div>
+	<div class="ddd">
+		<span class="aaaa">玉石</span>
+		<span class="bbbb"><a href="#">白玉</a></span>
+		<span class="bbbb"><a href="#">碧玉</a></span>
+		<span class="bbbb"><a href="#">黄玉</a></span>
+		<span class="bbbb"><a href="#">和田玉</a></span>
+		<span class="bbdd"><a href="#">翡翠</a></span>
+		<span class="bbbd"><a href="#">绿松玉</a></span>
+		<span class="bbbd"><a href="#">墨玉</a></span>
+	</div>
+	<div class="eee">
+		<span class="cccc">其他</span>
+		<span class="dddd"><a href="#">吊坠</a></span>
+		<span class="ddee"><a href="#">扳指</a></span>
+		<span class="ddee"><a href="#">手镯</a></span>
+	</div>
+	<div class="fff">
+		<span class="eeee">地区</span>
+		<span class="ffff"><a href="#">北京</a></span>
+		<span class="ffff"><a href="#">安徽</a></span>
+		<span class="ffff"><a href="#">福建</a></span>
+		<span class="ffff"><a href="#">内蒙古</a></span>
+		<span class="ffff"><a href="#">宁夏</a></span>
+		<span class="ffff"><a href="#">黑龙江</a></span>
+		<span class="ffff"><a href="#">河北</a></span>
+		<span class="gggg"><a href="#">更多</a></span>
+	</div>
+</div>
+<div id="class5">
+	<div class="black">
+		<div class="img1">
+			<a href="#"><img src="images/cart1.png"></a>
+		</div>
+		<div class="img2">
+			<a href="#"><img src="images/qq.png"></a>
+		</div>
+		<div class="img3">
+			<a href="#"><img src="images/zuji.png"></a>
+		</div>
+		<div class="img4">
+			<a href="#"><img src="images/erweima.png"></a>
+		</div>
+		<div class="img5">
+			<a href="#"><img src="images/gotop.png"></a>
+		</div>
+	</div>
+</div>
+<div id="class6">
+	<div id="tupian1">
+		<div class="touming1"><span class="tou1"><br><br><br></span><p>竞猜价：￥399.00</p><p>翡翠千手观音吊坠</p></div>
+	</div>
+	<div id="tupian2">
+		<div class="touming2"><p>竞猜价：￥1980.00</p><p>翡翠龙风吊坠</p></div>
+	</div>
+	<div id="tupian3">
+		<div class="touming2"><p>竞猜价：￥199.00</p><p>翡翠花蕊吊坠</p></div>
+	</div>
+	<div id="tupian4">
+		<div class="touming2"><p>竞猜价：￥199.00d</p><p>翡翠如意吊坠</p></div>
+	</div>
+	<div id="tupian5">
+		<div class="touming2"><p>竞猜价：￥99.00</p><p>翡翠婵吊坠</p></div>
+	</div>
+	<div id="tupian6">
+		<div class="touming2"><p>竞猜价：￥99.00</p><p>翡翠观音（浅色）吊坠</p></div>
+	</div>
+	<div id="tupian7">
+		<div class="touming2"><p>竞猜价：￥199.00</p><p>翡翠平安扣（深色）吊坠</p></div>
+	</div>
+	<div id="tupian8">
+		<div class="touming2"><p>竞猜价：￥199.00</p><p>翡翠如意吊坠</p></div>
+	</div>
+</div>
+<div id="class7">
+	<div class="zizhi">
+		<div class="zzrz">资质认证</div>
+		<div class="fws">服务商100%实名认证</div>
+	</div>
+	<div class="zhifu">
+		<div class="zzrz">支付安全</div>
+		<div class="fws">明码标价支付及信息安全</div>
+	</div>
+	<div class="baoxian">
+		<div class="zzrz">保险赔付</div>
+		<div class="fws">为您提供担保赔付</div>
+	</div>
+	<div class="shouhou">
+		<div class="zzrz">售后无忧</div>
+		<div class="fws">服务出问题经理全程跟进</div>
+	</div>
+</div>
+<div id="class8">
+	<div class="iii"><a href="#">首页</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">工商代理</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">财务代记账</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">股权交易与变更</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">企业贷款</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">办公室租赁</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">社保公积金代理</a></div>
+	    <div class="jjj">&nbsp|&nbsp</div>
+	    <div class="jjj"><a href="#">法律服务</a></div>
+	    <div class="nnn">© 2017-2018  买猜商城有限公司 版权所有</div>
+</div>
+</form>
+</body>
+</html>
